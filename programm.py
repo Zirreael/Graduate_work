@@ -55,9 +55,7 @@ def clustering(image):     # функция кластеризации
     resizeImage(image, 50)      # изменение размера изображение и вывод результата на экран
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     img = cv2.imread('image.tif', cv2.IMREAD_COLOR)
     print("Кластеризация выполняется, пожалуйста ожидайте...")
-    clustering(img)
-    
+    clustering(img)  
